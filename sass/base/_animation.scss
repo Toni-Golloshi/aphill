@@ -40,3 +40,8 @@
     transform: translateY(0);
   }
 }
+
+%animation-default {
+  opacity: 1 !important;
+  z-index: 3;
+}
