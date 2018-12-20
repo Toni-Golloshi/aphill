@@ -1,0 +1,21 @@
+.feature-box {
+  background-color: $color-white;
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-color: $color-grey-light-2;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 3px;
+
+  transition: transform .3s;
+
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+    -webkit-box-shadow: 10px 10px 0px 0px rgba($color-blue,0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba($color-blue,0.75);
+    box-shadow: 10px 10px 0px 0px rgba($color-blue,0.75);
+  }
+
+}
