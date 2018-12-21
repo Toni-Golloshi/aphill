@@ -24,6 +24,8 @@ body {
     font-size: 6rem;
     font-weight: 400;
     line-height: 7rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
 
     &--black{
     color: $color-black;

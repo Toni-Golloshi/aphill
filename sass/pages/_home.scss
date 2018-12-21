@@ -37,9 +37,28 @@
 
 }
 
+// Carousel horizontal
+.horizontalcar{
+  max-height: 17rem;
+}
+
+
+@include carousel1(5)
+
+
+.container1 {
+  width: 80%;
+  min-width: 80%;
+  margin: 5rem auto;
+  max-height: 12rem;
+  transform: translateY(-14rem);
+  box-shadow: 0 1.5rem 4rem rgba($color-black,.2);
+
+}
+
 // Section cultuur
 .cultuur{
-  background-image: url("https://images.unsplash.com/photo-1450037649614-fd8503521870?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1919&q=80");
+  background-image: url("https://media.giphy.com/media/l2Sqf1fbj1qrmaJ6E/giphy.gif");
   background-size: cover;
   height: 100%;
 }
